@@ -1,0 +1,431 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "title": "Time",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "title": "Freq",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "#Endomondo",
+          "idx": 1397016660000,
+          "val": 1.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397016660000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397016720000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397016720000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397016780000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397016780000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397016840000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397016840000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397016900000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397016900000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397016960000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397016960000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017020000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017020000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017080000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017080000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017140000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017140000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017200000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017200000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017260000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017260000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017320000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017320000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017380000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017380000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017440000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017440000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017500000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017500000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017560000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017560000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017620000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017620000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017680000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017680000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017740000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017740000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017800000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017800000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017860000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017860000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017920000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017920000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397017980000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397017980000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018040000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018040000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018100000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018100000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018160000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018160000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018220000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018220000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018280000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018280000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018340000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018340000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018400000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018400000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018460000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018460000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018520000,
+          "val": 0.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018520000,
+          "val": 0.0
+        },
+        {
+          "col": "#Endomondo",
+          "idx": 1397018580000,
+          "val": 1.0
+        },
+        {
+          "col": "#MexicoNeedsWWATour",
+          "idx": 1397018580000,
+          "val": 0.0
+        }
+      ]
+    }
+  ],
+  "height": 500,
+  "legends": [
+    {
+      "fill": "color",
+      "offset": 0,
+      "properties": {},
+      "title": "Matches"
+    }
+  ],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.col"
+            ],
+            "type": "facet"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "stroke": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "strokeWidth": {
+                "value": 2
+              },
+              "x": {
+                "field": "data.idx",
+                "scale": "x"
+              },
+              "y": {
+                "field": "data.val",
+                "scale": "y"
+              }
+            }
+          },
+          "type": "line"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": "auto",
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "time"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.val"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    }
+  ],
+  "width": 960
+}

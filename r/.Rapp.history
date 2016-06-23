@@ -1,0 +1,30 @@
+load("/Users/tnguyen/Google Drive/csm/project/r/raw_data.rda")
+write.table(my_data, "raw_data.out.csv", sep="\t", row.names = FALSE, header=FALSE)
+write.table(raw_data, "raw_data.out.csv", sep="\t", row.names = FALSE, col.names=FALSE)
+fn <- "raw_data.out.csv"
+my_data <- read.table(fn, header=FALSE, sep="\t", colClasses=c("POSIXct",NA))
+write.table(my_data, "raw_data.out.csv", sep="\t", row.names = FALSE, col.names=FALSE)
+rscript detect_topics.r
+source(detect_topics.r)
+source("detect_topics.r")
+source("./detect_topics.r")
+r -f detect_topics.r
+source("detect_event.r")
+res$plot
+res$plot
+source("detect_event.r")
+source("detect_event.r")
+source("detect_event.r")
+res$plot
+source("detect_event.r")
+res$plot
+source("detect_event.r")
+res$plot
+source("detect_event.r")
+res$plot
+install.packages("devtools")
+devtools::install_github("twitter/BreakoutDetection")
+source("detect_event.r")
+source("detect_event.r")
+res2$plot
+res$plot

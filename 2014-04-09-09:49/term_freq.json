@@ -1,0 +1,220 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "data",
+          "idx": "I",
+          "val": 4
+        },
+        {
+          "col": "data",
+          "idx": "running",
+          "val": 2
+        },
+        {
+          "col": "data",
+          "idx": "Just",
+          "val": 2
+        },
+        {
+          "col": "data",
+          "idx": "What",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "love",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "taste",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "photo",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "lips",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "Does",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "want",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "Was",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "began",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "live",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "Isapeg",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "terrific",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "Suffering",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "much",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "Preparing",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "excited",
+          "val": 1
+        },
+        {
+          "col": "data",
+          "idx": "5.98",
+          "val": 1
+        }
+      ]
+    },
+    {
+      "name": "stats",
+      "source": "table",
+      "transform": [
+        {
+          "keys": [
+            "data.idx"
+          ],
+          "type": "facet"
+        },
+        {
+          "type": "stats",
+          "value": "data.val"
+        }
+      ]
+    }
+  ],
+  "height": 500,
+  "legends": [],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.col"
+            ],
+            "type": "facet"
+          },
+          {
+            "height": "data.val",
+            "point": "data.idx",
+            "type": "stack"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "fill": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "width": {
+                "band": true,
+                "offset": -1,
+                "scale": "x"
+              },
+              "x": {
+                "field": "data.idx",
+                "scale": "x"
+              },
+              "y": {
+                "field": "y",
+                "scale": "y"
+              },
+              "y2": {
+                "field": "y2",
+                "scale": "y"
+              }
+            }
+          },
+          "type": "rect"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": "auto",
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "ordinal",
+      "zero": false
+    },
+    {
+      "domain": {
+        "data": "stats",
+        "field": "sum"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    }
+  ],
+  "width": 960
+}
