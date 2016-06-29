@@ -139,7 +139,7 @@ def terms_bigram(terms): return bigrams(terms)
 def terms_single(terms): return list(set(terms))
 
 # Count hashtags only
-def terms_hash(terms): return [term for term in terms if term.startswith('#')]
+def terms_hash(terms): return [term for term in terms if term.startswith('#') and len(term) > 1]
 
 # Count terms only (no hashtags, no mentions)
 def terms_only(terms):
@@ -148,12 +148,16 @@ def terms_only(terms):
     # we pass a list of inputs
     return [term for term in terms if term not in stop and not term.startswith(('#', '@'))] 
 
+def terms_manual(terms, remove_words = ['I']):
+    return [term for term in terms if term not in remove_words] 
+
 def terms_nolink(terms):
     return [term for term in terms if 'http' not in term] 
 
 def terms_filter(tokens):
     #terms = terms_hash(tokens)
     terms = terms_nolink(terms_stop(terms_only(tokens)))
+    terms = terms_manual(terms, [u'\ud83d', u'I', u'\ud83c', u"I'm", u'w', u'\ufe0f', u'3', u'\u2764', u'\u2665', u'2', u'The'])
     #terms = terms_bigram(terms)
     return terms
 
@@ -457,9 +461,9 @@ if __name__ == '__main__':
     #fn = 'test.sample.en'
     fn = 'test.en'
     #fn = 'test'
-    #main(fn)
+    main(fn)
     #main2(fn)
     #main3(fn)
     #main4(fn)
-    main5(fn)
+    #main5(fn)
     #main6(fn)

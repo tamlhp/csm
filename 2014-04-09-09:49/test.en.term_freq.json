@@ -25,11 +25,6 @@
         },
         {
           "col": "data",
-          "idx": "#",
-          "val": 56
-        },
-        {
-          "col": "data",
           "idx": "#friends",
           "val": 54
         },
@@ -62,6 +57,11 @@
           "col": "data",
           "idx": "#selfie",
           "val": 42
+        },
+        {
+          "col": "data",
+          "idx": "#sanmigueldeallende",
+          "val": 39
         }
       ]
     },
